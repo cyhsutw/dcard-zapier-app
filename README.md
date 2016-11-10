@@ -25,7 +25,7 @@ You can make Zaps using this app to get new posts on the Dcard forums.
 
   ```bash
   $ npm install -g yarn
-  $ yarn global all zapier-platform-cli
+  $ yarn global add zapier-platform-cli
   $ yarn install
   ```
 
