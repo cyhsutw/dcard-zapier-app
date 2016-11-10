@@ -1,4 +1,4 @@
-# Dcard Zapier App
+# Dcard Zapier App [![Build Status](https://travis-ci.org/cyhsutw/dcard-zapier-app.svg?branch=master)](https://travis-ci.org/cyhsutw/dcard-zapier-app)
 
 *This is just an experimental project to connect Dcard to Zapier.*
 
