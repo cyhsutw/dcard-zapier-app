@@ -8,6 +8,9 @@
 
 You can make Zaps using this app to get new posts on the Dcard forums.
 
+![sample-zap](http://i.imgur.com/iWUQhG6.png)
+
+▴ example: send a new email if there's a new post on Dcard
 
 ## Hacking
 
