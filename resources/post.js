@@ -27,7 +27,7 @@ module.exports = {
         {
           key: 'forumAlias',
           label: 'Forum',
-          description: 'Get new posts that are published in the specific forum.'
+          helpText: 'Get new posts that are published in the specific forum.',
           required: false,
           dynamic: 'forum.alias.name'
         }
