@@ -6,8 +6,8 @@ const zapier = require('zapier-platform-core');
 const appTester = zapier.createAppTester(require('../index'));
 
 describe('Dcard app', () => {
-  describe('Subscription trigger', () => {
-    const triggerPointer = 'triggers.post';
+  describe('New posts trigger', () => {
+    const triggerPointer = 'resources.post.list.operation.perform';
 
     describe('without forum specified', () => {
       it('should get the latest post', (done) => {

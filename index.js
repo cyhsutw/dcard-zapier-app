@@ -1,5 +1,5 @@
+const PostResource = require('./resources/post');
 const ForumResource = require('./resources/forum');
-const PostTrigger = require('./triggers/post');
 
 // We can roll up all our behaviors in an App.
 const App = {
@@ -17,12 +17,12 @@ const App = {
 
   // If you want to define optional resources to simplify creation of triggers, searches, creates - do that here!
   resources: {
+    [PostResource.key]: PostResource,
     [ForumResource.key]: ForumResource
   },
 
   // If you want your trigger to show up, you better include it here!
   triggers: {
-    [PostTrigger.key]: PostTrigger
   },
 
   // If you want your searches to show up, you better include it here!
